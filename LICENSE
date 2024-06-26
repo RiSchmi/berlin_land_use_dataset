@@ -1,0 +1,57 @@
+MIT License 
+
+Copyright (c) 2024 RiSchmi
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+ACKNOWLEDGEMENT DATASOURCE:
+The constructed data frame merges geographical and meteorological
+data under open source regulation, which is attributed by the Berlin
+Geoportaland the Deutscher Wetterdienst (German Weather Service)
+respectively. The original owner of the data and code used in this thesis retains ownership 
+of the data. The following enumeration of attribution lists the original
+title of the datasets and their legal ground for use and reproducibility.
+
+The usage of the meteorological data is regulated by the "Creative
+Commons BY 4.0" (CC BY 4.0) and covers the following data sets:
+
+• Hourly station observations of 2 m air temperature and humidity
+for Germany, Version v24.03
+• Hourly station observations of precipitation for Germany, Version v24.03
+• Hourly station observations of pressure for Germany, Version
+v24.03
+• Hourly station observations of solar incoming (total/diffuse)
+and longwave downward radiation for Germany, Version v24.03
+• Hourly mean value from station observations of wind speed and
+wind direction for Germany, Version v24.03
+
+The usage of the geographical and land-use data is regulated by the
+"Data licence Germany – attribution – version 2.0" (DL-DE->BY-2.0)
+and covers the following data sets:
+• Geoportal Berlin / Digitale Color-Infrarot-Orthophotos 2020
+(DOP20CIR) – Sommerbefliegung
+• Geoportal Berlin / Gebäudehöhen (Umweltatlas)
+• Geoportal Berlin / Einwohnerdichte 2022 (Umweltatlas)
+• Geoportal Berlin / Verkehrsmengen DTV 2019 (Umweltatlas)
+• Geoportal Berlin / Messdaten des Berliner Luftgütemessnetzes
+Thirdly, the spatial-temporal leaf area index dataset by Yan et al. (2024),
+licensed under "Creative Commons Attribution 4.0", is integrated.
+
+
+
