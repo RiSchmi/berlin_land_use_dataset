@@ -11,7 +11,8 @@ Structure of the Repository:
 -	Notebook_feature_engineering: detailed and annotated description of engineering per feature 
 -	main_dataset_construct.py: construction of non-temporal dataset based on coordinates specified in data/monitoring_station/monitoring_station.shp
 -	utilities_feature_engineering: python files accessed by main_dataset_construct.py
--	data: original source data
+-	data: original source data (the shapefile for buildings can be accessed through the Berlin Geoportal and is not included (filesize constraints))
+
 -	datasets: all constructed datasets:  
 1.  df_spatial_only.csv : no temporal features, only spatial characteristics
 2.	df_2023_na.csv : air pollution, meteorological and land use data for 2023, missing values not imputed
