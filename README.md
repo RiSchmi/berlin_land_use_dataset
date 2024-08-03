@@ -19,6 +19,7 @@ Structure of the Repository:
 3.	df_2023_imputed.csv : air pollution, meteorological and land use data for 2023, missing values imputed (see utilities_feature_engineering>encode_pollution.ipynb & repository: MLbased_meteorological_data_imputation)
 4.	df_meteorological_2023_berlin.csv
 5.  df_pollution_2023_berlin.csv
+6.  dataset_feature_engineering.pdf : excerpt master thesis on dataset construction
  	
 Requirements:
 -	Used python packages are specified in requirements.txt
