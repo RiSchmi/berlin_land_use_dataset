@@ -7,7 +7,7 @@ on:
     branches: 
       - 'master'
     paths:
-      - 'writeup.pdf'
+      - 'thesis_dataset_construction.pdf'
       - '.README.md'
       - '.github/workflows/writeup_readme.yml'
 
