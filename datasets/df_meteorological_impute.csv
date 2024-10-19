@@ -1,4 +1,4 @@
-MESS_DATUM,prec_mm,prec_bool,humidity,temp,radiation,wind_degree,wind_speed,air_pressure
+time_step,prec_mm,prec_bool,humidity,temp,radiation,wind_degree,wind_speed,air_pressure
 2023010100,0.0,0.0,60.0,16.1,0.0,220.0,6.2,1010.7
 2023010101,0.0,0.0,56.0,16.1,0.0,220.0,6.2,1011.4
 2023010102,0.0,0.0,53.0,16.1,0.0,220.0,6.1,1011.6
