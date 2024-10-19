@@ -41,4 +41,4 @@ features_emitter = emitter(coordinates = sites_coord['geometry'],
 sites_coord = pd.concat([sites_coord, features_canyon, features_green, features_emitter], axis=1)
 
 # 5. save
-sites_coord.drop(['geometry'], axis = 1).to_csv('datasets/df_spatial_only.csv')
+sites_coord.drop(['geometry'], axis = 1).to_csv('datasets/df_spatial_only.csv', index_label= False)
