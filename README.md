@@ -7,7 +7,7 @@ and thereby build the foundation of my data science master thesis on air polluti
 
 <p> The dataset contains temporal consistent features of <strong>surrounding greenery, traffic volume, nearest street and intersection, population, and architecture (street canyon)</strong>, and interpolated to <strong>hourly sequential meteorological and pollution data</strong>. A detailed feature description can be found in the Section Dataset and Feature Engineering of my thesis. </p>
 
-<p> NOTE: Not all source files are included in this repository due to file size constrains. Please check out the according descriptions at [<em> data/building_polygon </em>](https://github.com/RiSchmi/berlin_land_use_dataset/blob/main/data/building_polygon/note.md) and [data/lai](https://github.com/RiSchmi/berlin_land_use_dataset/blob/main/data/lai/note.md) <p>
+<p> NOTE: Not all source files are included in this repository due to file size constrains. Please check out the according descriptions at (<em> data/building_polygon </em>)[https://github.com/RiSchmi/berlin_land_use_dataset/blob/main/data/building_polygon/note.md] and (<em>data/lai</em>)[https://github.com/RiSchmi/berlin_land_use_dataset/blob/main/data/lai/note.md] <p>
 
 <h2> Structure of the Repository: </h2>
 
