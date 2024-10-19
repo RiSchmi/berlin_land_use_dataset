@@ -7,11 +7,13 @@ and thereby build the foundation of my data science master thesis on air polluti
 
 <p> The dataset contains temporal consistent features of <strong>surrounding greenery, traffic volume, nearest street and intersection, population, and architecture (street canyon)</strong>, and interpolated to <strong>hourly sequential meteorological and pollution data</strong>. A detailed feature description can be found in the Section Dataset and Feature Engineering of my thesis. </p>
 
+<p> NOTE: Not all source files are included in this repository due to file size constrains. Please check out the according descriptions at [<em> data/building_polygon </em>](https://github.com/RiSchmi/berlin_land_use_dataset/blob/main/data/building_polygon/note.md) and [data/lai](https://github.com/RiSchmi/berlin_land_use_dataset/blob/main/data/lai/note.md) <p>
+
 <h2> Structure of the Repository: </h2>
 
 - <em> dataset_feature_engineering.pdf </em>: excerpt master thesis on dataset construction
 -	<em> Notebook_feature_engineering </em>: detailed and annotated description of engineering per feature 
--	<em> main_dataset_construct.py </em>: construction of non-temporal dataset based on coordinates specified in data/monitoring_station/monitoring_station.shp
+-	<em> spatial_feature_construct.py </em>: construction of non-temporal dataset based on coordinates specified in data/monitoring_station/monitoring_station.shp
 -	<em> utilities_feature_engineering </em>: python files accessed by main_dataset_construct.py
 -	<em> data </em>: original source data (the shapefile for buildings can be accessed through the Berlin Geoportal and is not included (filesize constraints))
 
