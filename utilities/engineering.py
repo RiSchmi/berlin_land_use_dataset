@@ -2,7 +2,7 @@ from shapely import geometry
 import numpy
 import geopandas 
 import pandas as pd
-
+import ast
 
 class canyon:
     def __init__(self, path_building,coordinates, radius):
@@ -200,3 +200,41 @@ class emitter:
         # Return DataFrame
         print('finished feature greenery')
         return pd.DataFrame(results, columns=column_names)            
+    
+
+class free_wind():
+    def __init__(self, main_df, df_canyon):
+        self.main_df = main_df
+        self.df_canyon = df_canyon
+        
+    
+    def no_building_in_wind_degree(self, border_values, current_wind_degree):
+   
+        for open_gaps in border_values:
+            if open_gaps[0] > open_gaps[1]:
+                continues_open_degrees = ([n for n in range(open_gaps[0],361)] + [n for n in range(1, open_gaps[1])])
+            else:
+                continues_open_degrees = [n for n in range(open_gaps[0],open_gaps[1]+1)]
+
+            if current_wind_degree in continues_open_degrees: # check for 3 degree besides angle
+                        
+                # to account for values [358,360] 
+                upper = (current_wind_degree - 357) if current_wind_degree > 357 else current_wind_degree  
+                # to account for values [1,3]
+                lower = (current_wind_degree + 357) if current_wind_degree < 4 else current_wind_degree 
+                
+                if (upper +3 in continues_open_degrees) and (lower -3 in continues_open_degrees):
+                    return 1
+                
+        return 0
+        
+
+
+    def __getitem__(self):
+        main = self.main_df
+        main['free_wind'] = main.apply(lambda row: self.no_building_in_wind_degree(
+                    border_values= ast.literal_eval(self.df_canyon[self.df_canyon['id'] == row['id']].iloc[0]['border_values']),
+                    current_wind_degree=row['wind_degree']), axis=1)
+              
+        return self.main_df
+    
